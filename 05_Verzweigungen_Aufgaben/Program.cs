@@ -1,20 +1,35 @@
-﻿
-double BierinL; //Bier in Liter
-double BierinMl; //Alcohol in Milliliter
-double AiG; //Alcohol in Gramm
-double GewichtInKg; //Gewicht in Kilogramm
-double Promille; //Promille
-string Geschlecht; //Geschlecht des Benutzers
+﻿double bierInLitern;
+double bierInMillilitern;
+double alkoholInGramm;
+double gewichtInKg;
+double promille;
 
-Console.WriteLine("Geben Sie Ihr Geschlecht ein (männlich/weiblich):");
-Geschlecht = Console.ReadLine() ?? "";
+Console.Write("Wie viel Bier wurde in Litern getrunken? ");
+bierInLitern = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Geben Sie die Menge Bier in Liter ein:");
-BierinL = Convert.ToDouble(Console.ReadLine());
+Console.Write("Wie viel wiegst du in Kilogramm? ");
+gewichtInKg = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Geben Sie Ihren Gewicht in Kilogramm ein:");
-GewichtInKg = Convert.ToDouble(Console.ReadLine());
+bierInMillilitern = bierInLitern * 1000;
+alkoholInGramm = bierInMillilitern * 0.05 * 0.8;
+promille = alkoholInGramm / (0.65 * gewichtInKg);
 
-BierinMl = BierinL * 1000; //Umrechnung von Liter in Milliliter 
-AiG = BierinMl * 0.05 * 0.8; //Berechnung des Alkohols in Gramm (5% Alkoholgehalt)
-Promille = AiG / (GewichtInKg * 0.65 * GewichtInKg); //Berechnung der Promille (0.65 ist der Verteilungsfaktor für Männer, für Frauen wäre es 0.55)
+Console.WriteLine("Reinalkohol in Gramm: " + alkoholInGramm);
+Console.WriteLine("Blutalkoholgehalt in Promille: " + promille);
+
+if (promille <= 0.3)
+{
+    Console.WriteLine("Noch akzeptabel. Dennoch vorsichtig sein!");
+}
+else if (promille <= 0.5)
+{
+    Console.WriteLine("Achtung! Hände weg vom Steuer!");
+}
+else if (promille < 0.8)
+{
+    Console.WriteLine("Das ist jetzt schon ganz schön ordentlich.");
+}
+else
+{
+    Console.WriteLine("Kein Kommentar...");
+}
