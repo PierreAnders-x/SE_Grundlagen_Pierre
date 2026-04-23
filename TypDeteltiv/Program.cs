@@ -1,4 +1,5 @@
-﻿//Schreibe ein C#-Programm, das den Benutzer nach einer beliebigen Texteingabe fragt und dann selbst herausfindet, welcher Datentyp am besten zu dieser Eingabe passt.
+﻿
+//Schreibe ein C#-Programm, das den Benutzer nach einer beliebigen Texteingabe fragt und dann selbst herausfindet, welcher Datentyp am besten zu dieser Eingabe passt.
 //Das Programm soll dabei jeden sinnvollen Datentyp prüfen und den kleinstmöglichen passenden auswählen. Welche Typen du prüfst und in welcher Reihenfolge, ist Teil der Aufgabe — überlege dir das sorgfältig, denn die Reihenfolge hat Auswirkungen auf das Ergebnis.
 //Wenn die Eingabe zu mehreren Typen passen könnte, soll das Programm dem Benutzer alle Möglichkeiten anzeigen und ihn selbst wählen lassen.
 //Am Ende gibt das Programm aus, welcher Typ gewählt wurde und welchen Wert die Variable enthält.

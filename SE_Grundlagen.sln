@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{91F8FBA7-7DC8-4C75-975E-3ED239176783}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_HelloWorld", "HelloWorld\01_HelloWorld.csproj", "{91F8FBA7-7DC8-4C75-975E-3ED239176783}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Varibalen", "02_Varibalen\02_Varibalen.csproj", "{929DC827-B9CA-4BD9-8F21-A75107676CD8}"
 EndProject
@@ -21,9 +21,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen_Aufgaben",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen_Nr2", "05_Verzweigungen_Nr2\05_Verzweigungen_Nr2.csproj", "{09E4CF9B-3DEE-46FA-8493-8B25EC279239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypDeteltiv", "TypDeteltiv\TypDeteltiv.csproj", "{B83CC5C4-2977-2470-D4D0-0CDA607EDF0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypDetektiv", "TypDeteltiv\TypDetektiv.csproj", "{B83CC5C4-2977-2470-D4D0-0CDA607EDF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promillerechner", "Promillerechner\Promillerechner.csproj", "{B9A99EDD-1720-A578-6198-9DB2B4AD42B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Promillerechner", "Promillerechner\05_Promillerechner.csproj", "{B9A99EDD-1720-A578-6198-9DB2B4AD42B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Aufgabe Wetterapp", "Aufgabe Wetterapp\05_Aufgabe Wetterapp.csproj", "{2E31766B-F178-4A2B-B2CF-4DCC7F3ED230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner Aufgabe", "Taschenrechner Aufgabe\Taschenrechner Aufgabe.csproj", "{83CD19FC-89FA-4CD1-B0E3-98A4A5DDD6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt (Jochen)", "Projekt (Jochen)\Projekt (Jochen).csproj", "{5266EDA6-170A-4F15-87C4-EFD393205EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_For Schleife", "Der Digital Kellner\06_For Schleife.csproj", "{3EC0A6F3-6D3C-4B4C-9994-37FB9BA77317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_While-Schleife", "07_While-Schleife\07_While-Schleife.csproj", "{9F4A96A9-7E52-423B-BC50-70D4930A2DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Getränkeautomat", "Getränkeautomat\07_Getränkeautomat.csproj", "{06CA3508-B760-4298-9F18-182A5C7503AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +83,30 @@ Global
 		{B9A99EDD-1720-A578-6198-9DB2B4AD42B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9A99EDD-1720-A578-6198-9DB2B4AD42B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9A99EDD-1720-A578-6198-9DB2B4AD42B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E31766B-F178-4A2B-B2CF-4DCC7F3ED230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E31766B-F178-4A2B-B2CF-4DCC7F3ED230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E31766B-F178-4A2B-B2CF-4DCC7F3ED230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E31766B-F178-4A2B-B2CF-4DCC7F3ED230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CD19FC-89FA-4CD1-B0E3-98A4A5DDD6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CD19FC-89FA-4CD1-B0E3-98A4A5DDD6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CD19FC-89FA-4CD1-B0E3-98A4A5DDD6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CD19FC-89FA-4CD1-B0E3-98A4A5DDD6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5266EDA6-170A-4F15-87C4-EFD393205EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5266EDA6-170A-4F15-87C4-EFD393205EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5266EDA6-170A-4F15-87C4-EFD393205EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5266EDA6-170A-4F15-87C4-EFD393205EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC0A6F3-6D3C-4B4C-9994-37FB9BA77317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC0A6F3-6D3C-4B4C-9994-37FB9BA77317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC0A6F3-6D3C-4B4C-9994-37FB9BA77317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC0A6F3-6D3C-4B4C-9994-37FB9BA77317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4A96A9-7E52-423B-BC50-70D4930A2DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4A96A9-7E52-423B-BC50-70D4930A2DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4A96A9-7E52-423B-BC50-70D4930A2DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4A96A9-7E52-423B-BC50-70D4930A2DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CA3508-B760-4298-9F18-182A5C7503AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CA3508-B760-4298-9F18-182A5C7503AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CA3508-B760-4298-9F18-182A5C7503AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CA3508-B760-4298-9F18-182A5C7503AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
