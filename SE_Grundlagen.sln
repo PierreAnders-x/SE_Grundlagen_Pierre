@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Promillerechner", "Promi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Aufgabe Wetterapp", "Aufgabe Wetterapp\05_Aufgabe Wetterapp.csproj", "{2E31766B-F178-4A2B-B2CF-4DCC7F3ED230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner Aufgabe", "Taschenrechner Aufgabe\Taschenrechner Aufgabe.csproj", "{83CD19FC-89FA-4CD1-B0E3-98A4A5DDD6AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Taschenrechner Aufgabe while schleife", "Taschenrechner Aufgabe\07_Taschenrechner Aufgabe while schleife.csproj", "{83CD19FC-89FA-4CD1-B0E3-98A4A5DDD6AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt (Jochen)", "Projekt (Jochen)\Projekt (Jochen).csproj", "{5266EDA6-170A-4F15-87C4-EFD393205EF8}"
 EndProject
@@ -36,6 +36,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_While-Schleife", "07_While-Schleife\07_While-Schleife.csproj", "{9F4A96A9-7E52-423B-BC50-70D4930A2DB2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Getränkeautomat", "Getränkeautomat\07_Getränkeautomat.csproj", "{06CA3508-B760-4298-9F18-182A5C7503AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_For-Schleife Sparschwein", "For-Schleife Sparschwein\06_For-Schleife Sparschwein.csproj", "{A2D48C48-9587-48CF-BC87-BED6E772B5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EinfacheÜbungen", "Taschenrechner\EinfacheÜbungen.csproj", "{1E65E17C-EAAD-490A-821F-8C798D5084E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +111,14 @@ Global
 		{06CA3508-B760-4298-9F18-182A5C7503AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06CA3508-B760-4298-9F18-182A5C7503AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06CA3508-B760-4298-9F18-182A5C7503AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D48C48-9587-48CF-BC87-BED6E772B5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D48C48-9587-48CF-BC87-BED6E772B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D48C48-9587-48CF-BC87-BED6E772B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D48C48-9587-48CF-BC87-BED6E772B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E65E17C-EAAD-490A-821F-8C798D5084E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E65E17C-EAAD-490A-821F-8C798D5084E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E65E17C-EAAD-490A-821F-8C798D5084E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E65E17C-EAAD-490A-821F-8C798D5084E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
