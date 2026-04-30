@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen", "05_Verz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen_Aufgaben", "05_Verzweigungen_Aufgaben\05_Verzweigungen_Aufgaben.csproj", "{0ACD18B5-9375-43B8-9841-743B1D93D6A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen_Nr2", "05_Verzweigungen_Nr2\05_Verzweigungen_Nr2.csproj", "{09E4CF9B-3DEE-46FA-8493-8B25EC279239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen_Aufgabe", "05_Verzweigungen_Nr2\05_Verzweigungen_Aufgabe.csproj", "{09E4CF9B-3DEE-46FA-8493-8B25EC279239}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypDetektiv", "TypDeteltiv\TypDetektiv.csproj", "{B83CC5C4-2977-2470-D4D0-0CDA607EDF0A}"
 EndProject
@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_For-Schleife Sparschwein
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EinfacheÜbungen", "Taschenrechner\EinfacheÜbungen.csproj", "{1E65E17C-EAAD-490A-821F-8C798D5084E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto Aufgabe", "Arrays\Lotto Aufgabe.csproj", "{6E372002-60D1-4A8F-803E-770212A89CA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto Aufgabe (Noch nicht fertig)", "Arrays\Lotto Aufgabe (Noch nicht fertig).csproj", "{6E372002-60D1-4A8F-803E-770212A89CA1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jahreszahl Aufgabe", "Jahreszahl Aufgabe\Jahreszahl Aufgabe.csproj", "{D1811863-F66F-477D-B996-2BEA38021874}"
 EndProject
@@ -55,9 +55,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Arrays korrekt", "09_Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Typkonvertierung", "Typkonvertierung\11_Typkonvertierung.csproj", "{006395EA-A80F-4E55-B21E-96CC04CE72D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Zufallszahlen", "12_Zufallszahlen\12_Zufallszahlen.csproj", "{209FD2EC-25A8-404B-B6F8-3150312E58DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Zufallszahlen", "13_Zufallszahlen\12_Zufallszahlen.csproj", "{202FFE8F-7FAD-48E5-9981-DBFF4A91991D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Zufallszahlen", "13_Zufallszahlen\13_Zufallszahlen.csproj", "{202FFE8F-7FAD-48E5-9981-DBFF4A91991D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto Aufgabe Lösung", "Lotto Aufgabe Lösung\Lotto Aufgabe Lösung.csproj", "{BF65AA06-A2CA-44A8-88D3-87B5C9F68FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_DivisionDurch0", "DivisionDurch0\13_DivisionDurch0.csproj", "{BE143DD4-A1C2-486B-A055-457688403586}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,14 +159,18 @@ Global
 		{006395EA-A80F-4E55-B21E-96CC04CE72D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{006395EA-A80F-4E55-B21E-96CC04CE72D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{006395EA-A80F-4E55-B21E-96CC04CE72D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{209FD2EC-25A8-404B-B6F8-3150312E58DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{209FD2EC-25A8-404B-B6F8-3150312E58DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{209FD2EC-25A8-404B-B6F8-3150312E58DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{209FD2EC-25A8-404B-B6F8-3150312E58DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{202FFE8F-7FAD-48E5-9981-DBFF4A91991D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{202FFE8F-7FAD-48E5-9981-DBFF4A91991D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202FFE8F-7FAD-48E5-9981-DBFF4A91991D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202FFE8F-7FAD-48E5-9981-DBFF4A91991D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF65AA06-A2CA-44A8-88D3-87B5C9F68FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF65AA06-A2CA-44A8-88D3-87B5C9F68FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF65AA06-A2CA-44A8-88D3-87B5C9F68FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF65AA06-A2CA-44A8-88D3-87B5C9F68FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE143DD4-A1C2-486B-A055-457688403586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE143DD4-A1C2-486B-A055-457688403586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE143DD4-A1C2-486B-A055-457688403586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE143DD4-A1C2-486B-A055-457688403586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +178,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{94720F82-6786-42E0-83E2-337F6BF6D39E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{0ACD18B5-9375-43B8-9841-743B1D93D6A8} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
+		{09E4CF9B-3DEE-46FA-8493-8B25EC279239} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
 		{B83CC5C4-2977-2470-D4D0-0CDA607EDF0A} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
 		{B9A99EDD-1720-A578-6198-9DB2B4AD42B8} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
 		{2E31766B-F178-4A2B-B2CF-4DCC7F3ED230} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
@@ -181,6 +188,7 @@ Global
 		{1E65E17C-EAAD-490A-821F-8C798D5084E9} = {F4C44C25-324D-4640-8E6B-2F77002F9190}
 		{6E372002-60D1-4A8F-803E-770212A89CA1} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
 		{D1811863-F66F-477D-B996-2BEA38021874} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
+		{BF65AA06-A2CA-44A8-88D3-87B5C9F68FE6} = {6CFBFFFA-E88B-4548-9FCA-ED3824191F7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96C53AE3-17A0-460F-A7D1-99CD63815F6C}
