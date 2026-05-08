@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace objektOrientiertesProgramieren
+namespace _18_Konto
 {
-    internal class Kunde
+    internal class konto_classe
     {
-
     }
 }
